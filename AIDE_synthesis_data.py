@@ -1130,8 +1130,7 @@ if __name__ == "__main__":
     benchmark = args.benchmark
     persona_hub = args.persona_hub
     reflection = args.reflection
-    cond_list = []
-    # cond_list = ["reasoning", "concrete", "constraint"]
+    cond_list = ["reasoning", "concrete", "constraint"]
 
     if "BIG-Bench" == benchmark:
         if "implicatures" in seed_related_dataset:
