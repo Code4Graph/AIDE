@@ -38,7 +38,7 @@ def get_claude_response(system_prompt, prompt):
                 service_name="bedrock-runtime",
                 region_name="us-west-2",
                 config=config,
-                role_arn="arn:aws:iam::533266999589:role/invoke-bedrock-api",
+                role_arn="your role arn",
             )
             model_id = "us.anthropic.claude-3-5-sonnet-20240620-v1:0"
             system_prompt = system_prompt
