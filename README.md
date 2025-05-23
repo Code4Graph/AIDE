@@ -2,8 +2,7 @@
 --------------------------------------------------------------------------------------------
 This is the implementation of AIDE related to the paper:
 
-[AIDE: Attribute-Guided MultI-Hop Data Expansion for Data Scarcity in Task-Specific Fine-tuning, ACL 2025 Industry Track (Oral)]
-(https://arxiv.org/abs/2412.06136)
+[AIDE: Attribute-Guided MultI-Hop Data Expansion for Data Scarcity in Task-Specific Fine-tuning, ACL 2025 Industry Track (Oral)](https://arxiv.org/abs/2412.06136)
 
 ## Introduction
 -We have two options to use a strong LLM to do generation.
@@ -26,7 +25,7 @@ This is the implementation of AIDE related to the paper:
 
 -AIDE_synthesis_data.py is the main file which calls functions from above python files.
 
--prepare_fin_data.py is an example to show how to do data preparation using "TheFinAI/flare-cfa" as an example.
+-prepare_fin_data.py demonstrates how to perform data preparation using the "TheFinAI/flare-cfa" model as an example.
 
 ## Data Preparation
 
