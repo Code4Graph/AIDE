@@ -5,7 +5,7 @@ This is the implementation of AIDE related to the paper:
 [AIDE: Attribute-Guided MultI-Hop Data Expansion for Data Scarcity in Task-Specific Fine-tuning, ACL 2025 Industry Track (Oral)](https://arxiv.org/abs/2412.06136)
 
 ## Introduction
-- We have two options to use a strong LLM to do generation.
+- We have two options to use a strong LLM.
     1. `claude_sonnet35_access.py` provides an interface to call Claude Sonnet 3.5
     2. `openai_access.py` provides an interface to call GPT-3.5-Turbo (or GPT-4o)
     3. Note that you need to have the api_key or role_arn
