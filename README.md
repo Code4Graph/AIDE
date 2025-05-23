@@ -60,3 +60,6 @@ Here is an example to synthesize data using AIDE when finishing data preparation
 - `persona_hub`: if enabling personas to diversify data during synthesis.
 
 - `reflection`: if enabling the reflection mechanism.
+
+  ## Cite
+  
