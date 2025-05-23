@@ -27,12 +27,15 @@ This is the implementation of our paper "[AIDE: Attribute-Guided MultI-Hop Data 
 
 - `prepare_fin_data.py` demonstrates how to perform data preparation using the "TheFinAI/flare-cfa" model as an example (This part can be customized).
 
-## Data Preparation
+
+## Steps to run
+
+### Data Preparation
 An example to prepare data (i.e., seed data, gold data and test data). 
 
     python prepare_fin_data.py
 
-## Run Code
+### Run Code
 Here is an example to synthesize data using AIDE when finishing data preparation (enabling the reflection would slow down the synthesis):
 
     python AIDE_synthesis_data.py --choice_type 'multi_choice' --seed_related_dataset 'TheFinAI/flare-cfa' --len_token 500 --r_depth 2 --d_depth 2 --sk_conn 1 --num_triples 2 --use_case "finance" --benchmark "finance" --ex_kg True --persona_hub True --reflection False
