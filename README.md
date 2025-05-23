@@ -25,8 +25,12 @@ This is the implementation of AIDE related to the paper:
 
 -AIDE_synthesis_data.py is the main file which calls functions from above python files.
 
--prepare_fin_data.py demonstrates how to perform data preparation using the "TheFinAI/flare-cfa" model as an example.
+-prepare_fin_data.py demonstrates how to perform data preparation using the "TheFinAI/flare-cfa" model as an example (This part can be customized).
 
 ## Data Preparation
+An example to prepare data (i.e., seed data, gold data and test data). 
 
+    python prepare_fin_data.py
 
+## Run the code
+Here is an example to synthesize data using AIDE when finishing data preparation:
