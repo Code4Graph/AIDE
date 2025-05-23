@@ -1,8 +1,7 @@
 ## AIDE: Attribute-Guided MultI-Hop Data Expansion for Data Scarcity in Task-Specific Fine-tuning
 --------------------------------------------------------------------------------------------
-This is the implementation of AIDE related to the paper:
+This is the implementation of our paper "[AIDE: Attribute-Guided MultI-Hop Data Expansion for Data Scarcity in Task-Specific Fine-tuning](https://arxiv.org/abs/2412.06136)", published at ACL 2025.
 
-[AIDE: Attribute-Guided MultI-Hop Data Expansion for Data Scarcity in Task-Specific Fine-tuning, ACL 2025 Industry Track (Oral)](https://arxiv.org/abs/2412.06136)
 
 ## Introduction
 - We have two options to use a strong LLM.
