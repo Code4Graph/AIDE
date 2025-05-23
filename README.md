@@ -28,7 +28,7 @@ This is the implementation of our paper "[AIDE: Attribute-Guided MultI-Hop Data 
 - `prepare_fin_data.py` demonstrates how to perform data preparation using the "TheFinAI/flare-cfa" model as an example (This part can be customized).
 
 
-## Steps to run
+## Steps to Run
 
 ### Data Preparation
 An example to prepare data (i.e., seed data, gold data and test data). 
