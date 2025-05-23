@@ -60,8 +60,8 @@ Here is an example to synthesize data using AIDE when finishing data preparation
 
 - `reflection`: if enabling the reflection mechanism.
 
-## Cite
-Please cite our paper if you use this code in your own work:
+## Citation
+If you find our work helpful, please use the following citation.
 
      @misc{li2024aidetaskspecificfinetuning,
       title={AIDE: Task-Specific Fine Tuning with Attribute Guided Multi-Hop Data Expansion}, 
