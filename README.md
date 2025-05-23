@@ -6,9 +6,9 @@ This is the implementation of AIDE related to the paper:
 
 ## Introduction
 - We have two options to use a strong LLM to do generation.
-    1. we implement an interface to call Claude Sonnet 3.5
-    2. we implement an interface to call GPT-3.5-Turbo (or GPT-4o)
-    3. Note that you need to have the key or role_arn
+    1. `claude_sonnet35_access.py` provides an interface to call Claude Sonnet 3.5
+    2. `openai_access.py` provides an interface to call GPT-3.5-Turbo (or GPT-4o)
+    3. Note that you need to have the api_key or role_arn
 
 - `few_shot.py` includes few-shot examples.
 
